@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="GEN_Labo05"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/GEN/GEN_Labo_05/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/GEN/GEN_Labo_05/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GEN_Labo05">
+				<Option output="E:/GEN/GEN_Labo_05/cmake-build-debug/GEN_Labo05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GEN/GEN_Labo_05/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 GEN_Labo05"/>
+					<CompileFile command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="GEN_Labo05/fast">
+				<Option output="E:/GEN/GEN_Labo_05/cmake-build-debug/GEN_Labo05.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/GEN/GEN_Labo_05/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 GEN_Labo05/fast"/>
+					<CompileFile command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/GEN/GEN_Labo_05/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Mingw-64/mingw32/bin/mingw32-make.exe -f &quot;E:/GEN/GEN_Labo_05/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/GEN/GEN_Labo_05/Customer.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/Customer.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/Movie.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/Movie.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/Rental.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/main.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
