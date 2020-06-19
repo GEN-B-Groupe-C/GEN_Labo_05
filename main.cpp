@@ -1,8 +1,10 @@
 #include <iostream>
+#include <gtest/gtest.h>
 
 #include "Customer.h"
 
 int main() {
+    testing::InitGoogleTest();
 
     Customer customer("Olivier");
     customer.addRental( Rental( Movie("Karate Kid"), 7));
@@ -11,5 +13,5 @@ int main() {
 
     std::cout << customer.statement() << std::endl;
 
-    return 0;
+    return RUN_ALL_TESTS();
 }
