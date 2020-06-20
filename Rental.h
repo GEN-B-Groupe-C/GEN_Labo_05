@@ -1,7 +1,11 @@
 // Rental.h
 #ifndef RENTAL_H
 #define RENTAL_H
+
+#include <sstream>
+#include <vector>
 #include "Movie.h"
+#include "Customer.h"
 
 class Rental {
 public:
@@ -9,6 +13,7 @@ public:
 
     int getDaysRented() const;
     const Movie& getMovie() const;
+    double getAmmount() const;
 
 private:
     Movie _movie;
@@ -25,5 +30,25 @@ getDaysRented() const { return _daysRented; }
 
 inline const Movie& Rental::
 getMovie() const { return _movie; }
+
+inline double Rental::getAmmount() const {
+    double result = 0;
+    switch ( _movie.getPriceCode() ) {
+        case Movie::REGULAR:
+            result += 2;
+            if ( _daysRented > 2 )
+                result += ( _daysRented - 2 ) * 1.5 ;
+            break;
+        case Movie::NEW_RELEASE:
+            result += _daysRented * 3;
+            break;
+        case Movie::CHILDRENS:
+            result += 1.5;
+            if ( _daysRented > 3 )
+                result += ( _daysRented - 3 ) * 1.5;
+            break;
+    }
+    return result;
+}
 
 #endif // RENTAL_H
