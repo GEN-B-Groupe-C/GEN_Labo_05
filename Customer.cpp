@@ -14,10 +14,7 @@ string Customer::statement()
     int frequentRenterPoints = 0;
     ostringstream result;
     result << "Rental Record for " << getName() << "\n";
-    for (auto& elem: _rentals) {
-        //double thisAmount = 0;
-        Rental each = elem;
-
+    for (auto& each: _rentals) {
         // determine amounts for each line
         double thisAmount = getAmmount(each);
 
