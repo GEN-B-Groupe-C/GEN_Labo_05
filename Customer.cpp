@@ -17,7 +17,7 @@ string Customer::statement()
     result << "Rental Record for " << getName() << "\n";
     for (auto& each: _rentals) {
         // determine amounts for each line
-        double thisAmount = each.getAmmount();
+        totalAmount += each.getAmmount();
 
         // add frequent renter points
         frequentRenterPoints++;
@@ -27,8 +27,8 @@ string Customer::statement()
 
         // show figures for this rental
         result << "\t" << each.getMovie().getTitle() << "\t"
-               << thisAmount << "\n";
-        totalAmount += thisAmount;
+               << each.getAmmount() << "\n";
+
     }
     // add footer lines
     result << "Amount owed is " << totalAmount << "\n";
