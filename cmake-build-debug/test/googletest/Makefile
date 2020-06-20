@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\GEN\GEN_Labo_05
+CMAKE_SOURCE_DIR = C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\GEN\GEN_Labo_05\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -68,31 +68,31 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -103,7 +103,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -114,25 +114,25 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles E:\GEN\GEN_Labo_05\cmake-build-debug\test\googletest\CMakeFiles\progress.marks
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\CMakeFiles C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\test\googletest\CMakeFiles\progress.marks
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/clean
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -142,22 +142,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/preinstall
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/preinstall
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/googletest/CMakeFiles/gtest.dir/rule:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/CMakeFiles/gtest.dir/rule
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/CMakeFiles/gtest.dir/rule
 .PHONY : test/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ gtest: test/googletest/CMakeFiles/gtest.dir/rule
 
 # fast build rule for target.
 gtest/fast:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/build
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 # Convenience name for target.
 test/googletest/CMakeFiles/gtest_main.dir/rule:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/CMakeFiles/gtest_main.dir/rule
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/googletest/CMakeFiles/gtest_main.dir/rule
 .PHONY : test/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ gtest_main: test/googletest/CMakeFiles/gtest_main.dir/rule
 
 # fast build rule for target.
 gtest_main/fast:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/build
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 src/gtest-all.obj: src/gtest-all.cc.obj
@@ -191,7 +191,7 @@ src/gtest-all.obj: src/gtest-all.cc.obj
 
 # target to build an object file
 src/gtest-all.cc.obj:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
 .PHONY : src/gtest-all.cc.obj
 
 src/gtest-all.i: src/gtest-all.cc.i
@@ -200,7 +200,7 @@ src/gtest-all.i: src/gtest-all.cc.i
 
 # target to preprocess a source file
 src/gtest-all.cc.i:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i
 .PHONY : src/gtest-all.cc.i
 
 src/gtest-all.s: src/gtest-all.cc.s
@@ -209,7 +209,7 @@ src/gtest-all.s: src/gtest-all.cc.s
 
 # target to generate assembly for a file
 src/gtest-all.cc.s:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest.dir\build.make test/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s
 .PHONY : src/gtest-all.cc.s
 
 src/gtest_main.obj: src/gtest_main.cc.obj
@@ -218,7 +218,7 @@ src/gtest_main.obj: src/gtest_main.cc.obj
 
 # target to build an object file
 src/gtest_main.cc.obj:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj
 .PHONY : src/gtest_main.cc.obj
 
 src/gtest_main.i: src/gtest_main.cc.i
@@ -227,7 +227,7 @@ src/gtest_main.i: src/gtest_main.cc.i
 
 # target to preprocess a source file
 src/gtest_main.cc.i:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 .PHONY : src/gtest_main.cc.i
 
 src/gtest_main.s: src/gtest_main.cc.s
@@ -236,7 +236,7 @@ src/gtest_main.s: src/gtest_main.cc.s
 
 # target to generate assembly for a file
 src/gtest_main.cc.s:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 .PHONY : src/gtest_main.cc.s
 
 # Help Target
@@ -270,6 +270,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d E:\GEN\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
