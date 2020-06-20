@@ -15,11 +15,11 @@ string Customer::statement()
     ostringstream result;
     result << "Rental Record for " << getName() << "\n";
     for (auto& elem: _rentals) {
-        double thisAmount = 0;
+        //double thisAmount = 0;
         Rental each = elem;
 
         // determine amounts for each line
-        thisAmount = getAmmount(thisAmount, each);
+        double thisAmount = getAmmount(each);
 
         // add frequent renter points
         frequentRenterPoints++;
@@ -39,21 +39,22 @@ string Customer::statement()
     return result.str();
 }
 
-double Customer::getAmmount(double thisAmount, const Rental &each) const {
+double Customer::getAmmount(const Rental &each) const {
+    double result = 0;
     switch ( each.getMovie().getPriceCode() ) {
         case Movie::REGULAR:
-            thisAmount += 2;
+            result += 2;
             if ( each.getDaysRented() > 2 )
-                thisAmount += ( each.getDaysRented() - 2 ) * 1.5 ;
+                result += ( each.getDaysRented() - 2 ) * 1.5 ;
             break;
         case Movie::NEW_RELEASE:
-            thisAmount += each.getDaysRented() * 3;
+            result += each.getDaysRented() * 3;
             break;
         case Movie::CHILDRENS:
-            thisAmount += 1.5;
+            result += 1.5;
             if ( each.getDaysRented() > 3 )
-                thisAmount += ( each.getDaysRented() - 3 ) * 1.5;
+                result += ( each.getDaysRented() - 3 ) * 1.5;
             break;
     }
-    return thisAmount;
+    return result;
 }
