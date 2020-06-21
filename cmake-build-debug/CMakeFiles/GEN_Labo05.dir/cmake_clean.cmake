@@ -4,7 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj"
   "CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj"
   "CMakeFiles/GEN_Labo05.dir/main.cpp.obj"
-  "CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj"
+  "CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj"
   "GEN_Labo05.exe"
   "GEN_Labo05.exe.manifest"
   "GEN_Labo05.pdb"

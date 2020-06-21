@@ -34,9 +34,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock/include"/>
 					<Add directory="E:/GEN/GEN_Labo_05/lib/googletest/include"/>
+					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock/include"/>
 					<Add directory="E:/GEN/GEN_Labo_05/lib/googletest"/>
+					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -58,9 +59,10 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock/include"/>
 					<Add directory="E:/GEN/GEN_Labo_05/lib/googletest/include"/>
+					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock/include"/>
 					<Add directory="E:/GEN/GEN_Labo_05/lib/googletest"/>
+					<Add directory="E:/GEN/GEN_Labo_05/lib/googlemock"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
 					<Add directory="E:/Mingw-64/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
@@ -366,7 +368,22 @@
 		<Unit filename="E:/GEN/GEN_Labo_05/main.cpp">
 			<Option target="GEN_Labo05"/>
 		</Unit>
-		<Unit filename="E:/GEN/GEN_Labo_05/test/CustomerTest.cpp">
+		<Unit filename="E:/GEN/GEN_Labo_05/test/BillTest.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/test/RentalTest.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/test/mockMovie.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/test/mockRental.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/test/mockState.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="E:/GEN/GEN_Labo_05/test/typeTest.h">
 			<Option target="GEN_Labo05"/>
 		</Unit>
 		<Unit filename="E:/GEN/GEN_Labo_05/CMakeLists.txt">

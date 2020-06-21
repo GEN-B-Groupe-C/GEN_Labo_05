@@ -8,6 +8,7 @@
 #include "Rental.h"
 
 class Children : public State {
+public:
     double children(Rental *r) {
         double result = 1.5;
         if ( r->getDaysRented() > 3 )

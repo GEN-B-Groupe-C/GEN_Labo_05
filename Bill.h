@@ -15,8 +15,8 @@ public:
     Bill(const Customer& customer) : _customer(customer){}
     Bill(const Customer& customer,  std::vector< Rental > rentals) : _customer(customer), _rentals(rentals){}
 
-    void addRental( const Rental& arg );
-    std::string statement();
+    virtual void addRental( const Rental& arg );
+    virtual std::string statement();
 private:
     const Customer& _customer;
     std::vector< Rental > _rentals;

@@ -8,6 +8,7 @@
 #include "Rental.h"
 
 class Regular : public State {
+public:
     double regular(Rental *r) {
         double result = 2;
         if ( r->getDaysRented() > 2 )

@@ -10,7 +10,6 @@
 class NewRelease : public State {
 public:
     double newRelease(Rental *r) {
-        r->setCurrent(new NewRelease());
         return r->getDaysRented() * 3;
     }
 };

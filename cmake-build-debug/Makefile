@@ -355,32 +355,32 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-test/CustomerTest.obj: test/CustomerTest.cpp.obj
+test/BillTest.obj: test/BillTest.cpp.obj
 
-.PHONY : test/CustomerTest.obj
+.PHONY : test/BillTest.obj
 
 # target to build an object file
-test/CustomerTest.cpp.obj:
-	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj
-.PHONY : test/CustomerTest.cpp.obj
+test/BillTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj
+.PHONY : test/BillTest.cpp.obj
 
-test/CustomerTest.i: test/CustomerTest.cpp.i
+test/BillTest.i: test/BillTest.cpp.i
 
-.PHONY : test/CustomerTest.i
+.PHONY : test/BillTest.i
 
 # target to preprocess a source file
-test/CustomerTest.cpp.i:
-	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.i
-.PHONY : test/CustomerTest.cpp.i
+test/BillTest.cpp.i:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.i
+.PHONY : test/BillTest.cpp.i
 
-test/CustomerTest.s: test/CustomerTest.cpp.s
+test/BillTest.s: test/BillTest.cpp.s
 
-.PHONY : test/CustomerTest.s
+.PHONY : test/BillTest.s
 
 # target to generate assembly for a file
-test/CustomerTest.cpp.s:
-	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.s
-.PHONY : test/CustomerTest.cpp.s
+test/BillTest.cpp.s:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.s
+.PHONY : test/BillTest.cpp.s
 
 # Help Target
 help:
@@ -414,9 +414,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... test/CustomerTest.obj
-	@echo ... test/CustomerTest.i
-	@echo ... test/CustomerTest.s
+	@echo ... test/BillTest.obj
+	@echo ... test/BillTest.i
+	@echo ... test/BillTest.s
 .PHONY : help
 
 

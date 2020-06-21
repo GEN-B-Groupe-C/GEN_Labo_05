@@ -98,19 +98,19 @@ CMakeFiles/GEN_Labo05.dir/Movie.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEN_Labo05.dir/Movie.cpp.s"
 	E:\Mingw-64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GEN\GEN_Labo_05\Movie.cpp -o CMakeFiles\GEN_Labo05.dir\Movie.cpp.s
 
-CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj: CMakeFiles/GEN_Labo05.dir/flags.make
-CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj: CMakeFiles/GEN_Labo05.dir/includes_CXX.rsp
-CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj: ../test/CustomerTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj"
-	E:\Mingw-64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GEN_Labo05.dir\test\CustomerTest.cpp.obj -c E:\GEN\GEN_Labo_05\test\CustomerTest.cpp
+CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj: CMakeFiles/GEN_Labo05.dir/flags.make
+CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj: CMakeFiles/GEN_Labo05.dir/includes_CXX.rsp
+CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj: ../test/BillTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj"
+	E:\Mingw-64\mingw32\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\GEN_Labo05.dir\test\BillTest.cpp.obj -c E:\GEN\GEN_Labo_05\test\BillTest.cpp
 
-CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.i"
-	E:\Mingw-64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GEN\GEN_Labo_05\test\CustomerTest.cpp > CMakeFiles\GEN_Labo05.dir\test\CustomerTest.cpp.i
+CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.i"
+	E:\Mingw-64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GEN\GEN_Labo_05\test\BillTest.cpp > CMakeFiles\GEN_Labo05.dir\test\BillTest.cpp.i
 
-CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.s"
-	E:\Mingw-64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GEN\GEN_Labo_05\test\CustomerTest.cpp -o CMakeFiles\GEN_Labo05.dir\test\CustomerTest.cpp.s
+CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.s"
+	E:\Mingw-64\mingw32\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GEN\GEN_Labo_05\test\BillTest.cpp -o CMakeFiles\GEN_Labo05.dir\test\BillTest.cpp.s
 
 CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj: CMakeFiles/GEN_Labo05.dir/flags.make
 CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj: CMakeFiles/GEN_Labo05.dir/includes_CXX.rsp
@@ -145,7 +145,7 @@ GEN_Labo05_OBJECTS = \
 "CMakeFiles/GEN_Labo05.dir/main.cpp.obj" \
 "CMakeFiles/GEN_Labo05.dir/Customer.cpp.obj" \
 "CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj" \
-"CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj" \
+"CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj" \
 "CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj" \
 "CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj"
 
@@ -155,12 +155,15 @@ GEN_Labo05_EXTERNAL_OBJECTS =
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/main.cpp.obj
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/Customer.cpp.obj
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj
-GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/test/CustomerTest.cpp.obj
+GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/test/BillTest.cpp.obj
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/build.make
 GEN_Labo05.exe: lib/libgtestd.a
 GEN_Labo05.exe: lib/libgtest_maind.a
+GEN_Labo05.exe: lib/libgmockd.a
+GEN_Labo05.exe: lib/libgmock_maind.a
+GEN_Labo05.exe: lib/libgmockd.a
 GEN_Labo05.exe: lib/libgtestd.a
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/linklibs.rsp
 GEN_Labo05.exe: CMakeFiles/GEN_Labo05.dir/objects1.rsp
