@@ -15,6 +15,11 @@ CMakeFiles/GEN_Labo05.dir/Customer.cpp.obj: ../Rental.h
 CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj: ../Movie.cpp
 CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj: ../Movie.h
 
+CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj: ../Customer.h
+CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj: ../Movie.h
+CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj: ../Rental.cpp
+CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj: ../Rental.h
+
 CMakeFiles/GEN_Labo05.dir/main.cpp.obj: ../lib/googletest/include/gtest/gtest-death-test.h
 CMakeFiles/GEN_Labo05.dir/main.cpp.obj: ../lib/googletest/include/gtest/gtest-matchers.h
 CMakeFiles/GEN_Labo05.dir/main.cpp.obj: ../lib/googletest/include/gtest/gtest-message.h

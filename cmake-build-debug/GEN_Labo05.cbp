@@ -366,6 +366,9 @@
 		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Movie.h">
 			<Option target="GEN_Labo05"/>
 		</Unit>
+		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Rental.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
 		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Rental.h">
 			<Option target="GEN_Labo05"/>
 		</Unit>

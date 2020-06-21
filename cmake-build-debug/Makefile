@@ -301,6 +301,33 @@ Movie.cpp.s:
 	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
 
+Rental.obj: Rental.cpp.obj
+
+.PHONY : Rental.obj
+
+# target to build an object file
+Rental.cpp.obj:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj
+.PHONY : Rental.cpp.obj
+
+Rental.i: Rental.cpp.i
+
+.PHONY : Rental.i
+
+# target to preprocess a source file
+Rental.cpp.i:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.i
+.PHONY : Rental.cpp.i
+
+Rental.s: Rental.cpp.s
+
+.PHONY : Rental.s
+
+# target to generate assembly for a file
+Rental.cpp.s:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.s
+.PHONY : Rental.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -381,6 +408,9 @@ help:
 	@echo ... Movie.obj
 	@echo ... Movie.i
 	@echo ... Movie.s
+	@echo ... Rental.obj
+	@echo ... Rental.i
+	@echo ... Rental.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
