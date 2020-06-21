@@ -26,9 +26,7 @@ string Customer::statement()
              && each.getDaysRented() > 1 ) frequentRenterPoints++;
 
         // show figures for this rental
-        result << "\t" << each.getMovie().getTitle() << "\t"
-               << each.getAmmount() << "\n";
-
+        result << each.getFigures();
     }
     // add footer lines
     result << "Amount owed is " << totalAmount << "\n";

@@ -14,6 +14,7 @@ public:
     int getDaysRented() const;
     const Movie& getMovie() const;
     double getAmmount() const;
+    std::string getFigures() const;
 
 private:
     Movie _movie;
@@ -49,6 +50,15 @@ inline double Rental::getAmmount() const {
             break;
     }
     return result;
+}
+
+inline std::string Rental::getFigures() const{
+    std::ostringstream result;
+
+    result << "\t" << _movie.getTitle() << "\t"
+        << getAmmount() << "\n";
+
+    return result.str();
 }
 
 #endif // RENTAL_H
