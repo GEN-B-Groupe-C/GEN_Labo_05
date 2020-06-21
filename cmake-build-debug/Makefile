@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = E:\GEN\GEN_Labo_05
+CMAKE_SOURCE_DIR = C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = E:\GEN\GEN_Labo_05\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = E:\GEN\GEN_Labo_05\cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -69,31 +69,31 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -114,20 +114,20 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"E:\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\CMakeFiles C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start E:\GEN\GEN_Labo_05\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Pierre-Olivier\Documents\BA4\GEN\labo\lab05\GEN_Labo_05\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -220,6 +220,33 @@ gtest_main/fast:
 	$(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+Bill.obj: Bill.cpp.obj
+
+.PHONY : Bill.obj
+
+# target to build an object file
+Bill.cpp.obj:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj
+.PHONY : Bill.cpp.obj
+
+Bill.i: Bill.cpp.i
+
+.PHONY : Bill.i
+
+# target to preprocess a source file
+Bill.cpp.i:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.i
+.PHONY : Bill.cpp.i
+
+Bill.s: Bill.cpp.s
+
+.PHONY : Bill.s
+
+# target to generate assembly for a file
+Bill.cpp.s:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.s
+.PHONY : Bill.cpp.s
+
 Customer.obj: Customer.cpp.obj
 
 .PHONY : Customer.obj
@@ -273,6 +300,33 @@ Movie.s: Movie.cpp.s
 Movie.cpp.s:
 	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Movie.cpp.s
 .PHONY : Movie.cpp.s
+
+Rental.obj: Rental.cpp.obj
+
+.PHONY : Rental.obj
+
+# target to build an object file
+Rental.cpp.obj:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.obj
+.PHONY : Rental.cpp.obj
+
+Rental.i: Rental.cpp.i
+
+.PHONY : Rental.i
+
+# target to preprocess a source file
+Rental.cpp.i:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.i
+.PHONY : Rental.cpp.i
+
+Rental.s: Rental.cpp.s
+
+.PHONY : Rental.s
+
+# target to generate assembly for a file
+Rental.cpp.s:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Rental.cpp.s
+.PHONY : Rental.cpp.s
 
 main.obj: main.cpp.obj
 
@@ -345,12 +399,18 @@ help:
 	@echo ... gmock
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... Bill.obj
+	@echo ... Bill.i
+	@echo ... Bill.s
 	@echo ... Customer.obj
 	@echo ... Customer.i
 	@echo ... Customer.s
 	@echo ... Movie.obj
 	@echo ... Movie.i
 	@echo ... Movie.s
+	@echo ... Rental.obj
+	@echo ... Rental.i
+	@echo ... Rental.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

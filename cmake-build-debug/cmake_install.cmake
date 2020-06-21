@@ -1,4 +1,4 @@
-# Install script for directory: E:/GEN/GEN_Labo_05
+# Install script for directory: C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/GEN/GEN_Labo_05/cmake-build-debug/test/cmake_install.cmake")
+  include("C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/cmake-build-debug/test/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/GEN/GEN_Labo_05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
