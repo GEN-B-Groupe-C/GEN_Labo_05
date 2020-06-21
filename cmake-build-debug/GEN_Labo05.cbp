@@ -348,6 +348,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.cpp">
+			<Option target="GEN_Labo05"/>
+		</Unit>
+		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.h">
+			<Option target="GEN_Labo05"/>
+		</Unit>
 		<Unit filename="C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.cpp">
 			<Option target="GEN_Labo05"/>
 		</Unit>

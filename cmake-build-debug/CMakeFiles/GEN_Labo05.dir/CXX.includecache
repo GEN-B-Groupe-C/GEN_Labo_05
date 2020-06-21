@@ -300,6 +300,18 @@ cxxabi.h
 acxx_demangle.h
 -
 
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.cpp
+Bill.h
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.h
+
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.h
+Customer.h
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.h
+Rental.h
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Rental.h
+vector
+-
+
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.cpp
 sstream
 -
@@ -313,10 +325,6 @@ C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Rental.h
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.h
 string
 -
-vector
--
-Rental.h
-C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Rental.h
 
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Movie.h
 string
@@ -339,10 +347,14 @@ gtest/gtest.h
 -
 Customer.h
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.h
+Bill.h
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.h
 
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/test/CustomerTest.cpp
 gtest/gtest.h
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/test/gtest/gtest.h
 ../Customer.h
 C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Customer.h
+../Bill.h
+C:/Users/Pierre-Olivier/Documents/BA4/GEN/labo/lab05/GEN_Labo_05/Bill.h
 

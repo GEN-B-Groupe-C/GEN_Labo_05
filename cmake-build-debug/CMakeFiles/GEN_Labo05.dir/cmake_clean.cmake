@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj"
   "CMakeFiles/GEN_Labo05.dir/Customer.cpp.obj"
   "CMakeFiles/GEN_Labo05.dir/Movie.cpp.obj"
   "CMakeFiles/GEN_Labo05.dir/main.cpp.obj"

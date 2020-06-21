@@ -220,6 +220,33 @@ gtest_main/fast:
 	$(MAKE) -f test\googletest\CMakeFiles\gtest_main.dir\build.make test/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+Bill.obj: Bill.cpp.obj
+
+.PHONY : Bill.obj
+
+# target to build an object file
+Bill.cpp.obj:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.obj
+.PHONY : Bill.cpp.obj
+
+Bill.i: Bill.cpp.i
+
+.PHONY : Bill.i
+
+# target to preprocess a source file
+Bill.cpp.i:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.i
+.PHONY : Bill.cpp.i
+
+Bill.s: Bill.cpp.s
+
+.PHONY : Bill.s
+
+# target to generate assembly for a file
+Bill.cpp.s:
+	$(MAKE) -f CMakeFiles\GEN_Labo05.dir\build.make CMakeFiles/GEN_Labo05.dir/Bill.cpp.s
+.PHONY : Bill.cpp.s
+
 Customer.obj: Customer.cpp.obj
 
 .PHONY : Customer.obj
@@ -345,6 +372,9 @@ help:
 	@echo ... gmock
 	@echo ... gtest
 	@echo ... gtest_main
+	@echo ... Bill.obj
+	@echo ... Bill.i
+	@echo ... Bill.s
 	@echo ... Customer.obj
 	@echo ... Customer.i
 	@echo ... Customer.s
