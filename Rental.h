@@ -15,6 +15,7 @@ public:
     const Movie& getMovie() const;
     double getAmmount() const;
     std::string getFigures() const;
+    int getFrequentRenterPoint() const;
 
 private:
     Movie _movie;
@@ -59,6 +60,10 @@ inline std::string Rental::getFigures() const{
         << getAmmount() << "\n";
 
     return result.str();
+}
+
+inline int Rental::getFrequentRenterPoint() const {
+    return 1 + ((_movie.getPriceCode() == Movie::NEW_RELEASE && _daysRented > 1) ? 1 : 0);
 }
 
 #endif // RENTAL_H
