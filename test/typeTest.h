@@ -55,7 +55,7 @@ TEST(typeTest, regularTest) {
     Regular r;
 
     EXPECT_EQ(r.regular(&r1), 2);
-    EXPECT_EQ(r.regular(&r2), 5);
+    EXPECT_EQ(r.regular(&r2), 6.5);
 }
 
 TEST(typeTest, newReleaseTest) {

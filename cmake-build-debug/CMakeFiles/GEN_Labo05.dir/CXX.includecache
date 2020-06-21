@@ -518,10 +518,6 @@ cxxabi.h
 acxx_demangle.h
 -
 
-E:/GEN/GEN_Labo_05/Bill.cpp
-Bill.h
-E:/GEN/GEN_Labo_05/Bill.h
-
 E:/GEN/GEN_Labo_05/Bill.h
 Customer.h
 E:/GEN/GEN_Labo_05/Customer.h
@@ -531,16 +527,6 @@ vector
 -
 
 E:/GEN/GEN_Labo_05/Children.h
-Rental.h
-E:/GEN/GEN_Labo_05/Rental.h
-
-E:/GEN/GEN_Labo_05/Customer.cpp
-sstream
--
-vector
--
-Customer.h
-E:/GEN/GEN_Labo_05/Customer.h
 Rental.h
 E:/GEN/GEN_Labo_05/Rental.h
 
@@ -559,16 +545,6 @@ E:/GEN/GEN_Labo_05/Rental.h
 E:/GEN/GEN_Labo_05/Regular.h
 Rental.h
 E:/GEN/GEN_Labo_05/Rental.h
-
-E:/GEN/GEN_Labo_05/Rental.cpp
-Rental.h
-E:/GEN/GEN_Labo_05/Rental.h
-NewRelease.h
-E:/GEN/GEN_Labo_05/NewRelease.h
-Children.h
-E:/GEN/GEN_Labo_05/Children.h
-Regular.h
-E:/GEN/GEN_Labo_05/Regular.h
 
 E:/GEN/GEN_Labo_05/Rental.h
 sstream
@@ -595,14 +571,6 @@ test/RentalTest.h
 E:/GEN/GEN_Labo_05/test/RentalTest.h
 test/typeTest.h
 E:/GEN/GEN_Labo_05/test/typeTest.h
-
-E:/GEN/GEN_Labo_05/test/BillTest.cpp
-gtest/gtest.h
-E:/GEN/GEN_Labo_05/test/gtest/gtest.h
-../Customer.h
-E:/GEN/GEN_Labo_05/Customer.h
-../Bill.h
-E:/GEN/GEN_Labo_05/Bill.h
 
 E:/GEN/GEN_Labo_05/test/RentalTest.h
 mockMovie.h

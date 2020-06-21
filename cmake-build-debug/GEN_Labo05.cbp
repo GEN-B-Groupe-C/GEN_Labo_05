@@ -380,9 +380,6 @@
 		<Unit filename="E:/GEN/GEN_Labo_05/test/mockRental.h">
 			<Option target="GEN_Labo05"/>
 		</Unit>
-		<Unit filename="E:/GEN/GEN_Labo_05/test/mockState.h">
-			<Option target="GEN_Labo05"/>
-		</Unit>
 		<Unit filename="E:/GEN/GEN_Labo_05/test/typeTest.h">
 			<Option target="GEN_Labo05"/>
 		</Unit>
