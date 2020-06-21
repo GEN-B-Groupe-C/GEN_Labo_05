@@ -12,17 +12,17 @@ class Rental {
 public:
     Rental( const Movie& movie, int daysRented );
 
-    int getDaysRented() const;
-    const Movie& getMovie() const;
-    double getAmmount() ;
-    std::string getFigures() ;
-    int getFrequentRenterPoint() const;
-    void setCurrent(State *s);
-    double children() ;
-    double regular() ;
-    double newRelease() ;
+    virtual int getDaysRented() const;
+    virtual const Movie& getMovie() const;
+    virtual double getAmmount() ;
+    virtual std::string getFigures() ;
+    virtual int getFrequentRenterPoint() const;
+    virtual void setCurrent(State *s);
+    virtual double children() ;
+    virtual double regular() ;
+    virtual double newRelease() ;
 private:
-    Movie _movie;
+    const Movie& _movie;
     int _daysRented;
     State *current;
 };
@@ -31,12 +31,15 @@ class State
 {
 public :
     virtual double regular(Rental *r) {
+        return 0;
     }
 
     virtual double newRelease(Rental *r) {
+        return 0;
     }
 
     virtual double children(Rental *r) {
+        return 0;
     }
 };
 

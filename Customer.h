@@ -8,7 +8,7 @@ public:
     Customer();
     explicit Customer( const std::string& name );
 
-    std::string getName() const;
+    virtual std::string getName() const;
 
 private:
     std::string _name;
