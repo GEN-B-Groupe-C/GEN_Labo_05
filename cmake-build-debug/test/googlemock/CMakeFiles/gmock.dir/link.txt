@@ -1,2 +1,2 @@
-C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\ar.exe qc ..\..\lib\libgmockd.a  CMakeFiles/gmock.dir/src/gmock-all.cc.obj
-C:\PROGRA~1\HASKEL~1\86E4AC~1.5\mingw\bin\ranlib.exe ..\..\lib\libgmockd.a
+E:\Mingw-64\mingw32\bin\ar.exe qc ..\..\lib\libgmockd.a  CMakeFiles/gmock.dir/src/gmock-all.cc.obj
+E:\Mingw-64\mingw32\bin\ranlib.exe ..\..\lib\libgmockd.a

@@ -3,7 +3,7 @@ project(GEN_Labo05)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(GEN_Labo05 main.cpp Customer.cpp Customer.h Movie.cpp Movie.h Rental.h test/CustomerTest.cpp Bill.h Bill.cpp Rental.cpp)
+add_executable(GEN_Labo05 main.cpp Customer.cpp Customer.h Movie.cpp Movie.h Rental.h test/CustomerTest.cpp Bill.h Bill.cpp Rental.cpp Children.h Regular.h NewRelease.h)
 
 add_subdirectory(lib test)
 
